@@ -132,7 +132,7 @@ export default function Privacidad() {
                 <h2 className="text-2xl font-bold text-white mb-4">9. Cambios a Esta Política</h2>
                 <p className="leading-relaxed">
                   Podemos actualizar esta política de privacidad periódicamente. Te notificaremos sobre cambios significativos publicando
-                  la nueva política en nuestra plataforma y actualizando la fecha de "última actualización".
+                  la nueva política en nuestra plataforma y actualizando la fecha de &ldquo;última actualización&rdquo;.
                 </p>
               </section>
 
