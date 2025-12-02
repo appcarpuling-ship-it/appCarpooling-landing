@@ -110,7 +110,7 @@ export default function Home() {
                 className="mt-8 flex items-center space-x-6"
               >
                 <div className="flex -space-x-2">
-                  <img src="https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face"
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face"
                        alt="Usuario" className="w-10 h-10 rounded-full border-2 border-black object-cover" />
                   <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
                        alt="Usuario" className="w-10 h-10 rounded-full border-2 border-black object-cover" />
@@ -288,7 +288,7 @@ export default function Home() {
               {
                 name: "María González",
                 role: "Viajera frecuente",
-                image: "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face",
+                image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
                 rating: 5,
                 text: "Carpuling me ha permitido ahorrar mucho dinero en mis viajes diarios al trabajo. Además, he conocido gente increíble en el camino."
               },
