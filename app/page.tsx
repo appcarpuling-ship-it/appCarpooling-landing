@@ -33,7 +33,7 @@ export default function Home() {
               className="flex items-center space-x-2"
             >
               <div className="p-2 rounded-xl">
-                <img src="/carpuling-white.png" alt="Carpuling" className="w-10 h-10" />
+                <img src="/carpuling-white.png" alt="Carpuling" className="h-8 w-auto object-contain" />
               </div>
             </motion.div>
             <div className="hidden md:flex space-x-8">
@@ -446,7 +446,7 @@ export default function Home() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="p-2 rounded-xl">
-                  <img src="/carpuling-white.png" alt="Carpuling" className="w-10 h-10" />
+                  <img src="/carpuling-white.png" alt="Carpuling" className="h-8 w-auto object-contain" />
                 </div>
               </div>
               <p className="text-gray-400">Viaja juntos, ahorra más</p>
