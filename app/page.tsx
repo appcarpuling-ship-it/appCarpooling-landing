@@ -110,9 +110,14 @@ export default function Home() {
                 className="mt-8 flex items-center space-x-6"
               >
                 <div className="flex -space-x-2">
-                  {[1, 2, 3, 4].map((i) => (
-                    <div key={i} className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 border-2 border-black" />
-                  ))}
+                  <img src="https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face"
+                       alt="Usuario" className="w-10 h-10 rounded-full border-2 border-black object-cover" />
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+                       alt="Usuario" className="w-10 h-10 rounded-full border-2 border-black object-cover" />
+                  <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+                       alt="Usuario" className="w-10 h-10 rounded-full border-2 border-black object-cover" />
+                  <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+                       alt="Usuario" className="w-10 h-10 rounded-full border-2 border-black object-cover" />
                 </div>
                 <div>
                   <div className="flex items-center">
@@ -140,9 +145,9 @@ export default function Home() {
                     repeat: Infinity,
                     ease: "easeInOut"
                   }}
-                  className="bg-gradient-to-br from-zinc-900 to-zinc-800 border border-zinc-700 rounded-3xl shadow-2xl p-8"
+                  className="flex items-center justify-center p-8"
                 >
-                  <Car className="w-full h-64 text-indigo-500" strokeWidth={1} />
+                  <img src="/carpuling-white.png" alt="Carpuling Logo" className="w-64 h-64 object-contain" />
                 </motion.div>
               </div>
               <motion.div
@@ -283,21 +288,21 @@ export default function Home() {
               {
                 name: "María González",
                 role: "Viajera frecuente",
-                image: "M",
+                image: "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face",
                 rating: 5,
                 text: "Carpuling me ha permitido ahorrar mucho dinero en mis viajes diarios al trabajo. Además, he conocido gente increíble en el camino."
               },
               {
                 name: "Carlos Ramírez",
                 role: "Conductor verificado",
-                image: "C",
+                image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
                 rating: 5,
                 text: "Como conductor, me encanta poder ayudar a otros mientras recupero parte de los gastos de gasolina. La plataforma es muy fácil de usar."
               },
               {
                 name: "Ana Martínez",
                 role: "Estudiante",
-                image: "A",
+                image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
                 rating: 5,
                 text: "Perfecto para estudiantes como yo. Viajo de forma económica y segura todos los días a la universidad. Totalmente recomendado."
               },
@@ -309,9 +314,11 @@ export default function Home() {
                 className="bg-gradient-to-br from-zinc-900 to-zinc-800 border border-zinc-700 rounded-2xl p-8 hover:shadow-xl hover:shadow-indigo-500/20 transition"
               >
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
-                    {testimonial.image}
-                  </div>
+                  <img
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full object-cover mr-4 border-2 border-indigo-500"
+                  />
                   <div>
                     <h4 className="text-white font-bold">{testimonial.name}</h4>
                     <p className="text-sm text-gray-400">{testimonial.role}</p>
