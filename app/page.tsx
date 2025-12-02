@@ -32,8 +32,8 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               className="flex items-center space-x-2"
             >
-              <div className="bg-gradient-to-br from-indigo-500 to-purple-600 p-2 rounded-xl">
-                <Car className="w-5 h-5 text-white" />
+              <div className="p-2 rounded-xl">
+                <img src="/assets/carpuling-white.png" alt="Carpuling" className="w-8 h-8" />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">
                 Carpuling
@@ -45,7 +45,7 @@ export default function Home() {
               <a href="#testimonials" className="text-gray-400 hover:text-white transition">Testimonios</a>
               <a href="#about" className="text-gray-400 hover:text-white transition">Nosotros</a>
             </div>
-            <a href="#cta">
+            <a href="https://app-carpooling-web.vercel.app/" target="_blank" rel="noopener noreferrer">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -75,7 +75,7 @@ export default function Home() {
                 variants={fadeInUp}
                 className="text-5xl md:text-6xl font-bold text-white leading-tight"
               >
-                Viaja <span className="bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">juntos</span>,
+<a href="https://app-carpooling-web.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition">Viaja</a> <span className="bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">juntos</span>,
                 ahorra más
               </motion.h1>
               <motion.p
@@ -88,7 +88,7 @@ export default function Home() {
                 variants={fadeInUp}
                 className="mt-8 flex flex-col sm:flex-row gap-4"
               >
-                <a href="#cta" className="flex-1 sm:flex-initial">
+                <a href="https://app-carpooling-web.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-initial">
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -98,7 +98,7 @@ export default function Home() {
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </motion.button>
                 </a>
-                <a href="#cta" className="flex-1 sm:flex-initial">
+                <a href="https://app-carpooling-web.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-initial">
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -422,14 +422,15 @@ export default function Home() {
             <p className="text-xl text-indigo-100 mb-8">
               Únete a miles de usuarios que ya están viajando de forma inteligente
             </p>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={() => alert('Próximamente: Registro de usuarios')}
-              className="bg-white text-indigo-600 px-10 py-4 rounded-full text-lg font-bold hover:shadow-2xl transition"
-            >
-              Comenzar Ahora
-            </motion.button>
+            <a href="https://app-carpooling-web.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-white text-indigo-600 px-10 py-4 rounded-full text-lg font-bold hover:shadow-2xl transition"
+              >
+                Comenzar Ahora
+              </motion.button>
+            </a>
           </motion.div>
         </div>
       </section>
@@ -440,8 +441,8 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="bg-gradient-to-br from-indigo-500 to-purple-600 p-2 rounded-xl">
-                  <Car className="w-6 h-6 text-white" />
+                <div className="p-2 rounded-xl">
+                  <img src="/assets/carpuling-white.png" alt="Carpuling" className="w-8 h-8" />
                 </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">Carpuling</span>
               </div>
@@ -452,7 +453,7 @@ export default function Home() {
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#features" className="hover:text-indigo-400 transition">Características</a></li>
                 <li><a href="#how-it-works" className="hover:text-indigo-400 transition">Cómo Funciona</a></li>
-                <li><a href="#cta" className="hover:text-indigo-400 transition">Comenzar</a></li>
+                <li><a href="https://app-carpooling-web.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition">Comenzar</a></li>
               </ul>
             </div>
             <div>
