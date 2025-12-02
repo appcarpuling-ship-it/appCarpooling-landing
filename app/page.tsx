@@ -33,11 +33,8 @@ export default function Home() {
               className="flex items-center space-x-2"
             >
               <div className="p-2 rounded-xl">
-                <img src="/assets/carpuling-white.png" alt="Carpuling" className="w-8 h-8" />
+                <img src="/carpuling-white.png" alt="Carpuling" className="w-10 h-10" />
               </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">
-                Carpuling
-              </span>
             </motion.div>
             <div className="hidden md:flex space-x-8">
               <a href="#features" className="text-gray-400 hover:text-white transition">Características</a>
@@ -442,9 +439,8 @@ export default function Home() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="p-2 rounded-xl">
-                  <img src="/assets/carpuling-white.png" alt="Carpuling" className="w-8 h-8" />
+                  <img src="/carpuling-white.png" alt="Carpuling" className="w-10 h-10" />
                 </div>
-                <span className="text-xl font-bold bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">Carpuling</span>
               </div>
               <p className="text-gray-400">Viaja juntos, ahorra más</p>
             </div>
